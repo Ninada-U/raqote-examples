@@ -33,7 +33,7 @@ fn main() {
                          &DrawOptions::new(),
                         );
 
-            window.update_with_buffer(dt.get_data(), size.0, size.1).unwrap();
         }
+        window.update_with_buffer(dt.get_data(), size.0, size.1).unwrap();
     }
 }
